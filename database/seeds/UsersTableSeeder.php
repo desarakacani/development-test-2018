@@ -21,5 +21,13 @@ class UsersTableSeeder extends Seeder
             'password'       =>  bcrypt('test1234'),
             'contact_number' =>  '+35568686868',
         ]);
+        
+         User::create([
+            'firstname'      => 'jordi',
+            'lastname'       => 'cea',
+            'email'          => 'jordi.cea@thestorytailors.info',
+            'password'       =>  bcrypt('test1234'),
+            'contact_number' =>  '123',
+        ]);
     }
 }
