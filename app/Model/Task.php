@@ -9,7 +9,7 @@ class Task extends Model
 {
     protected $fillable = [
 
-        'tittle', 'description', 'user_id', 'author_id', 'task_id', 'priority_id'
+        'tittle', 'description', 'user_id', 'author_id', 'task_status_id', 'priority_id'
     ];
 
     public function author()
