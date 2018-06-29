@@ -476,3 +476,10 @@ footer.sticky-footer {
     width: calc(100% - 55px);
   }
 }
+
+.author {
+  background-color: #DAF7A6 !important;
+}
+.padding-bottom-50{
+  padding-bottom: 50px !important;
+}
